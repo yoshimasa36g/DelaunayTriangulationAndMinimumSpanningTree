@@ -27,7 +27,19 @@
 		D636F0B81E0C763A00C9CC57 /* MinimumSpanningTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D636F0B71E0C763A00C9CC57 /* MinimumSpanningTree.swift */; };
 		D636F0BA1E0C766B00C9CC57 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D636F0B91E0C766B00C9CC57 /* Edge.swift */; };
 		D636F0BC1E0F0AC800C9CC57 /* EdgeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D636F0BB1E0F0AC800C9CC57 /* EdgeExtension.swift */; };
+		D636F0DB1E11A3B900C9CC57 /* CGFloatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D636F0DA1E11A3B900C9CC57 /* CGFloatTests.swift */; };
+		D636F0DD1E11AFA100C9CC57 /* CGPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D636F0DC1E11AFA100C9CC57 /* CGPointTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D636F0D41E11A31800C9CC57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D60483931E0B282700E3370A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D604839A1E0B282700E3370A;
+			remoteInfo = DelaunayTriangulationAndMinimumSpanningTree;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D604839B1E0B282700E3370A /* DelaunayTriangulationAndMinimumSpanningTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelaunayTriangulationAndMinimumSpanningTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,10 +64,21 @@
 		D636F0B71E0C763A00C9CC57 /* MinimumSpanningTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimumSpanningTree.swift; sourceTree = "<group>"; };
 		D636F0B91E0C766B00C9CC57 /* Edge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
 		D636F0BB1E0F0AC800C9CC57 /* EdgeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeExtension.swift; sourceTree = "<group>"; };
+		D636F0CF1E11A31800C9CC57 /* DelaunayTriangulationAndMinimumSpanningTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelaunayTriangulationAndMinimumSpanningTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D636F0D31E11A31800C9CC57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D636F0DA1E11A3B900C9CC57 /* CGFloatTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatTests.swift; sourceTree = "<group>"; };
+		D636F0DC1E11AFA100C9CC57 /* CGPointTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D60483981E0B282700E3370A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D636F0CC1E11A31800C9CC57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				D604839D1E0B282700E3370A /* DelaunayTriangulationAndMinimumSpanningTree */,
+				D636F0D01E11A31800C9CC57 /* DelaunayTriangulationAndMinimumSpanningTreeTests */,
 				D604839C1E0B282700E3370A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				D604839B1E0B282700E3370A /* DelaunayTriangulationAndMinimumSpanningTree.app */,
+				D636F0CF1E11A31800C9CC57 /* DelaunayTriangulationAndMinimumSpanningTreeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,6 +158,24 @@
 			path = MinimumSpanningTree;
 			sourceTree = "<group>";
 		};
+		D636F0D01E11A31800C9CC57 /* DelaunayTriangulationAndMinimumSpanningTreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D636F0D91E11A36D00C9CC57 /* DelaunayTriangulation */,
+				D636F0D31E11A31800C9CC57 /* Info.plist */,
+			);
+			path = DelaunayTriangulationAndMinimumSpanningTreeTests;
+			sourceTree = "<group>";
+		};
+		D636F0D91E11A36D00C9CC57 /* DelaunayTriangulation */ = {
+			isa = PBXGroup;
+			children = (
+				D636F0DA1E11A3B900C9CC57 /* CGFloatTests.swift */,
+				D636F0DC1E11AFA100C9CC57 /* CGPointTests.swift */,
+			);
+			path = DelaunayTriangulation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,6 +197,24 @@
 			productReference = D604839B1E0B282700E3370A /* DelaunayTriangulationAndMinimumSpanningTree.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D636F0CE1E11A31800C9CC57 /* DelaunayTriangulationAndMinimumSpanningTreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D636F0D81E11A31800C9CC57 /* Build configuration list for PBXNativeTarget "DelaunayTriangulationAndMinimumSpanningTreeTests" */;
+			buildPhases = (
+				D636F0CB1E11A31800C9CC57 /* Sources */,
+				D636F0CC1E11A31800C9CC57 /* Frameworks */,
+				D636F0CD1E11A31800C9CC57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D636F0D51E11A31800C9CC57 /* PBXTargetDependency */,
+			);
+			name = DelaunayTriangulationAndMinimumSpanningTreeTests;
+			productName = DelaunayTriangulationAndMinimumSpanningTreeTests;
+			productReference = D636F0CF1E11A31800C9CC57 /* DelaunayTriangulationAndMinimumSpanningTreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -166,8 +227,13 @@
 				TargetAttributes = {
 					D604839A1E0B282700E3370A = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = WX95L22WU7;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
+					};
+					D636F0CE1E11A31800C9CC57 = {
+						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
+						TestTargetID = D604839A1E0B282700E3370A;
 					};
 				};
 			};
@@ -185,6 +251,7 @@
 			projectRoot = "";
 			targets = (
 				D604839A1E0B282700E3370A /* DelaunayTriangulationAndMinimumSpanningTree */,
+				D636F0CE1E11A31800C9CC57 /* DelaunayTriangulationAndMinimumSpanningTreeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,6 +266,13 @@
 				D60483AC1E0B282700E3370A /* Assets.xcassets in Resources */,
 				D60483AF1E0B282700E3370A /* LaunchScreen.storyboard in Resources */,
 				D60483A31E0B282700E3370A /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D636F0CD1E11A31800C9CC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +317,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D636F0CB1E11A31800C9CC57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D636F0DD1E11AFA100C9CC57 /* CGPointTests.swift in Sources */,
+				D636F0DB1E11A3B900C9CC57 /* CGFloatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D636F0D51E11A31800C9CC57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D604839A1E0B282700E3370A /* DelaunayTriangulationAndMinimumSpanningTree */;
+			targetProxy = D636F0D41E11A31800C9CC57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D60483A81E0B282700E3370A /* Main.storyboard */ = {
@@ -363,7 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = WX95L22WU7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DelaunayTriangulationAndMinimumSpanningTree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.yoshimasa36g.DelaunayTriangulationAndMinimumSpanningTree;
@@ -377,12 +468,43 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = WX95L22WU7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DelaunayTriangulationAndMinimumSpanningTree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.yoshimasa36g.DelaunayTriangulationAndMinimumSpanningTree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D636F0D61E11A31800C9CC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DelaunayTriangulationAndMinimumSpanningTreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yoshimasa36g.DelaunayTriangulationAndMinimumSpanningTreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DelaunayTriangulationAndMinimumSpanningTree.app/DelaunayTriangulationAndMinimumSpanningTree";
+			};
+			name = Debug;
+		};
+		D636F0D71E11A31800C9CC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DelaunayTriangulationAndMinimumSpanningTreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yoshimasa36g.DelaunayTriangulationAndMinimumSpanningTreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DelaunayTriangulationAndMinimumSpanningTree.app/DelaunayTriangulationAndMinimumSpanningTree";
 			};
 			name = Release;
 		};
@@ -406,6 +528,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		D636F0D81E11A31800C9CC57 /* Build configuration list for PBXNativeTarget "DelaunayTriangulationAndMinimumSpanningTreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D636F0D61E11A31800C9CC57 /* Debug */,
+				D636F0D71E11A31800C9CC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
