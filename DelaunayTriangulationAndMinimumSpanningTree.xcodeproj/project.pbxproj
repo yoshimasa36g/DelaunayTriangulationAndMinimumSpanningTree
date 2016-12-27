@@ -31,6 +31,7 @@
 		D636F0DD1E11AFA100C9CC57 /* CGPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D636F0DC1E11AFA100C9CC57 /* CGPointTests.swift */; };
 		D636F0DF1E11B54000C9CC57 /* CGRectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D636F0DE1E11B54000C9CC57 /* CGRectTests.swift */; };
 		D636F0E11E11B6A800C9CC57 /* CircleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D636F0E01E11B6A800C9CC57 /* CircleTests.swift */; };
+		D636F0E31E11BA2D00C9CC57 /* TriangleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D636F0E21E11BA2D00C9CC57 /* TriangleTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		D636F0DC1E11AFA100C9CC57 /* CGPointTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointTests.swift; sourceTree = "<group>"; };
 		D636F0DE1E11B54000C9CC57 /* CGRectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectTests.swift; sourceTree = "<group>"; };
 		D636F0E01E11B6A800C9CC57 /* CircleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleTests.swift; sourceTree = "<group>"; };
+		D636F0E21E11BA2D00C9CC57 /* TriangleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 				D636F0DC1E11AFA100C9CC57 /* CGPointTests.swift */,
 				D636F0DE1E11B54000C9CC57 /* CGRectTests.swift */,
 				D636F0E01E11B6A800C9CC57 /* CircleTests.swift */,
+				D636F0E21E11BA2D00C9CC57 /* TriangleTests.swift */,
 			);
 			path = DelaunayTriangulation;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D636F0E31E11BA2D00C9CC57 /* TriangleTests.swift in Sources */,
 				D636F0DD1E11AFA100C9CC57 /* CGPointTests.swift in Sources */,
 				D636F0E11E11B6A800C9CC57 /* CircleTests.swift in Sources */,
 				D636F0DB1E11A3B900C9CC57 /* CGFloatTests.swift in Sources */,
