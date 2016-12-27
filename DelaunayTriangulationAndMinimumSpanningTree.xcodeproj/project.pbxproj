@@ -33,6 +33,7 @@
 		D636F0E11E11B6A800C9CC57 /* CircleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D636F0E01E11B6A800C9CC57 /* CircleTests.swift */; };
 		D636F0E31E11BA2D00C9CC57 /* TriangleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D636F0E21E11BA2D00C9CC57 /* TriangleTests.swift */; };
 		D636F0E51E130A7A00C9CC57 /* UniqueTrianglesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D636F0E41E130A7A00C9CC57 /* UniqueTrianglesTests.swift */; };
+		D636F0E81E130DB600C9CC57 /* EdgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D636F0E71E130DB600C9CC57 /* EdgeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		D636F0E01E11B6A800C9CC57 /* CircleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleTests.swift; sourceTree = "<group>"; };
 		D636F0E21E11BA2D00C9CC57 /* TriangleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleTests.swift; sourceTree = "<group>"; };
 		D636F0E41E130A7A00C9CC57 /* UniqueTrianglesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniqueTrianglesTests.swift; sourceTree = "<group>"; };
+		D636F0E71E130DB600C9CC57 /* EdgeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				D636F0D91E11A36D00C9CC57 /* DelaunayTriangulation */,
+				D636F0E61E130D9300C9CC57 /* MinimumSpanningTree */,
 				D636F0D31E11A31800C9CC57 /* Info.plist */,
 			);
 			path = DelaunayTriangulationAndMinimumSpanningTreeTests;
@@ -186,6 +189,14 @@
 				D636F0E41E130A7A00C9CC57 /* UniqueTrianglesTests.swift */,
 			);
 			path = DelaunayTriangulation;
+			sourceTree = "<group>";
+		};
+		D636F0E61E130D9300C9CC57 /* MinimumSpanningTree */ = {
+			isa = PBXGroup;
+			children = (
+				D636F0E71E130DB600C9CC57 /* EdgeTests.swift */,
+			);
+			path = MinimumSpanningTree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,6 +346,7 @@
 			files = (
 				D636F0E31E11BA2D00C9CC57 /* TriangleTests.swift in Sources */,
 				D636F0DD1E11AFA100C9CC57 /* CGPointTests.swift in Sources */,
+				D636F0E81E130DB600C9CC57 /* EdgeTests.swift in Sources */,
 				D636F0E51E130A7A00C9CC57 /* UniqueTrianglesTests.swift in Sources */,
 				D636F0E11E11B6A800C9CC57 /* CircleTests.swift in Sources */,
 				D636F0DB1E11A3B900C9CC57 /* CGFloatTests.swift in Sources */,
